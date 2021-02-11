@@ -17,13 +17,26 @@ router.get("/api/workouts", (req, res) => {
 router.put("/api/workouts/:id", (req, res) => {
   const newExercise = req.body;
 
+  console.log(newExercise);
+
   workout
-    .findByIdAndUpdate(req.params.id, {
-      $push: {
-        exercises: newExercise,
+    .findByIdAndUpdate(
+      req.params.id,
+      {
+        $push: {
+          exercises: newExercise,
+        },
       },
+      {
+        new: true,
+      }
+    )
+    .then((workout) => {
+      res.json(workout);
     })
-    .then();
+    .catch((err) => {
+      res.status(500).json(err);
+    });
 });
 
 router.post("/api/workouts", (req, res) => {
