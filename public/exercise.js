@@ -95,9 +95,9 @@ function validateInputs() {
 }
 
 async function handleFormSubmit(event) {
-  event.preventDefalut();
+  event.preventDefault();
 
-  let workout = {};
+  let workoutData = {};
 
   if (workoutType === "cardio") {
     workoutData.type = "cardio";
@@ -121,7 +121,7 @@ async function handleFormSubmit(event) {
 function handleToastAnimationEnd() {
   toast.removeAttribute("class");
   if (shouldNavigateAway) {
-    location.hrfe = "/";
+    location.href = "/";
   }
 }
 
@@ -140,7 +140,7 @@ if (workoutTypeSelect) {
   workoutTypeSelect.addEventListener("change", handleWorkoutTypeChange);
 }
 if (completeButton) {
-  completeButton.addEventListener("click", (event) => {
+  completeButton.addEventListener("click", function (event) {
     shouldNavigateAway = true;
     handleFormSubmit(event);
   });

@@ -1,5 +1,3 @@
-const { init } = require("../models/workout");
-
 init();
 
 async function init() {

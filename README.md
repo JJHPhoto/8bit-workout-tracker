@@ -28,6 +28,7 @@ To watch a video of the application being fully demo'd please use this link: [Ap
 - initial ideas
 - hard coding until i get it to click. stopped at stats & style css. i had been using chartsjs to do my project 2 charts and was familiar enough.
 - back end connecting via class demos
+- I realized I had made mistakes hard coding my public folder. I decided to copy in the given code after working on it with my study group. I'm glad I hand coded it because it did help me better understand how things were connected. I just made a few mistakes with missing letters in a few spots.
 
 ## Technologies Used
 
@@ -51,3 +52,8 @@ To watch a video of the application being fully demo'd please use this link: [Ap
 [Font Awesome](https://fontawesome.com/)
 
 [Screencastify](https://www.screencastify.com/)
+
+### My Study Group
+
+- [Ian](https://github.com/Ianaac27)
+- [Thomas](https://github.com/Tskading)
