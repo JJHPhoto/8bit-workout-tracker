@@ -1,5 +1,3 @@
-const { route } = require("./htmlRoutes");
-
 const router = require("express").Router();
 const { workout } = require("../models");
 
