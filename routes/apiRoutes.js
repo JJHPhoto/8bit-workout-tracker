@@ -25,7 +25,6 @@ router.put("/api/workouts/:id", (req, res) => {
     },
     {
       new: true,
-      // runValidators: true,
     }
   )
     .then((dbWorkout) => {
