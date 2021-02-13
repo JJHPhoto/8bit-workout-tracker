@@ -52,8 +52,6 @@ The last thing to do was deploy to Heroku. I've been pretty good at deploying th
 
 [Shields.io](https://shields.io/)
 
-[Font Awesome](https://fontawesome.com/)
-
 [Screencastify](https://www.screencastify.com/)
 
 ### My Study Group
